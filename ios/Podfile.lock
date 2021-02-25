@@ -19,6 +19,10 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - Iterable-iOS-SDK (6.3.0-beta2)
+  - Iterable-React-Native-SDK (1.1.0-beta1):
+    - Iterable-iOS-SDK (~> 6.3.0-beta2)
+    - React
   - RCTRequired (0.63.3)
   - RCTTypeSafety (0.63.3):
     - FBLazyVector (= 0.63.3)
@@ -253,6 +257,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - "Iterable-React-Native-SDK (from `../node_modules/@iterable/react-native-sdk`)"
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
   - React (from `../node_modules/react-native/`)
@@ -280,6 +285,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - Iterable-iOS-SDK
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -292,6 +298,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  Iterable-React-Native-SDK:
+    :path: "../node_modules/@iterable/react-native-sdk"
   RCTRequired:
     :path: "../node_modules/react-native/Libraries/RCTRequired"
   RCTTypeSafety:
@@ -342,6 +350,8 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 7da9338acfb98d4ef9e5536805a0704572d33c2f
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
+  Iterable-iOS-SDK: 7b6cf0504c38404a87775cf6399c494c23232177
+  Iterable-React-Native-SDK: c0d667358b8774f9b1c043b2f3069abb8f91577f
   RCTRequired: 48884c74035a0b5b76dbb7a998bd93bcfc5f2047
   RCTTypeSafety: edf4b618033c2f1c5b7bc3d90d8e085ed95ba2ab
   React: f36e90f3ceb976546e97df3403e37d226f79d0e3
@@ -364,6 +374,6 @@ SPEC CHECKSUMS:
   ReactCommon: 4167844018c9ed375cc01a843e9ee564399e53c3
   Yoga: 7d13633d129fd179e01b8953d38d47be90db185a
 
-PODFILE CHECKSUM: e8eeb65566ea6fc03b2a57e7b162dff8f5492b35
+PODFILE CHECKSUM: 5b8acc5f2e3dc0dbd1b86bb5916d815927ee0685
 
 COCOAPODS: 1.10.1
