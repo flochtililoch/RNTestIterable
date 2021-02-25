@@ -19,6 +19,10 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - hypertrack-sdk-react-native (7.2.0):
+    - HyperTrack/Objective-C (= 4.7.0)
+    - React-Core
+  - HyperTrack/Objective-C (4.7.0)
   - Iterable-iOS-SDK (6.3.0-beta2)
   - Iterable-React-Native-SDK (1.1.0-beta1):
     - Iterable-iOS-SDK (~> 6.3.0-beta2)
@@ -257,6 +261,7 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - hypertrack-sdk-react-native (from `../node_modules/hypertrack-sdk-react-native`)
   - "Iterable-React-Native-SDK (from `../node_modules/@iterable/react-native-sdk`)"
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
@@ -285,6 +290,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
+    - HyperTrack
     - Iterable-iOS-SDK
 
 EXTERNAL SOURCES:
@@ -298,6 +304,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  hypertrack-sdk-react-native:
+    :path: "../node_modules/hypertrack-sdk-react-native"
   Iterable-React-Native-SDK:
     :path: "../node_modules/@iterable/react-native-sdk"
   RCTRequired:
@@ -350,6 +358,8 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 7da9338acfb98d4ef9e5536805a0704572d33c2f
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
+  HyperTrack: ad630d0ece08ccaad6050847d8c48cb27eb0c3de
+  hypertrack-sdk-react-native: 2329f086ad225dd1d23c8fd1b458244b1ad95a43
   Iterable-iOS-SDK: 7b6cf0504c38404a87775cf6399c494c23232177
   Iterable-React-Native-SDK: c0d667358b8774f9b1c043b2f3069abb8f91577f
   RCTRequired: 48884c74035a0b5b76dbb7a998bd93bcfc5f2047
@@ -374,6 +384,6 @@ SPEC CHECKSUMS:
   ReactCommon: 4167844018c9ed375cc01a843e9ee564399e53c3
   Yoga: 7d13633d129fd179e01b8953d38d47be90db185a
 
-PODFILE CHECKSUM: 5b8acc5f2e3dc0dbd1b86bb5916d815927ee0685
+PODFILE CHECKSUM: 0898927556628d7f0b874bc51ea54b8d58e5b422
 
 COCOAPODS: 1.10.1
